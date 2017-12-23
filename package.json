@@ -1,0 +1,23 @@
+{
+  "name": "adminvue",
+  "version": "0.0.1",
+  "description": "A frontend framework for building admin applications using Vue and Element.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Zhomart/adminvue.git"
+  },
+  "keywords": [
+    "admin",
+    "vue"
+  ],
+  "author": "Zhomart Mukhamejanov <mzhomart@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zhomart/adminvue/issues"
+  },
+  "homepage": "https://github.com/Zhomart/adminvue#readme"
+}
