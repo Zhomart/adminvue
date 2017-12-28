@@ -1,35 +1,19 @@
 {
-  "name": "adminvue",
+  "name": "adminvue-example",
   "version": "0.0.1",
-  "description": "A frontend framework for building admin applications using Vue and Element.",
-  "main": "src/index.js",
+  "private": true,
+  "description": "adminvue example",
+  "main": "src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --inline --hot --env.dev"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/Zhomart/adminvue.git"
-  },
-  "keywords": [
-    "admin",
-    "vue"
-  ],
   "author": "Zhomart Mukhamejanov <mzhomart@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Zhomart/adminvue/issues"
   },
   "homepage": "https://github.com/Zhomart/adminvue#readme",
-  "dependencies": {
-    "axios": "^0.17.1",
-    "element-ui": "^2.0.8",
-    "lodash": "^4.17.4",
-    "moment": "^2.19.4",
-    "voca": "^1.3.1",
-    "vue": "^2.5.10",
-    "vue-router": "^3.0.1",
-    "vuex": "^3.0.1"
-  },
   "devDependencies": {
     "autoprefixer": "^7.2.2",
     "babel-core": "^6.26.0",
